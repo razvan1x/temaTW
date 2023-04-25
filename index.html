@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tehno</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+
+	<style>
+		body {
+			background-color: rgb(255, 255, 255);
+			margin: 0;
+			padding: 0;
+		}
+		
+		.topbar {
+			background-color: #000000;
+			height: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.topbar p {
+			color: rgb(255, 255, 255);
+      font-weight: bold;
+			font-size: 24px;
+			margin: 0;
+		}
+		
+		.header {
+			background-color: rgb(236, 231, 231);
+			height: 100px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 20px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+		}
+		
+		.header-logo {
+			display: flex;
+			align-items: center;
+		}
+		
+		.header-logo img {
+			height: 30px;
+			margin-right: 100px;
+		}
+		
+		.header-menu {
+			display: flex;
+			align-items: center;
+      font-weight: bold;
+      
+		}
+		
+		.header-menu a {
+			color: rgb(49, 18, 159);
+			font-size: 20px;
+			text-decoration: rgb(171, 88, 29);
+			margin-left: 40px;
+            
+		}
+		
+		.header-menu a:hover {
+			color: #ed251e;
+		}
+	</style>
+</head>
+<body>
+	
+	
+
+	<div class="topbar">
+		<p>Impreuna pentru viitor!</p>
+	</div>
+	<header class="header">
+		<div class="header-logo">
+			<img src="img/LearnCube logo wordmark -high res 1.png">
+		</div>
+		<nav  class="header-menu">
+			<a href="#sectiunea1">Home</a>
+			<a href="#sectiunea2">About Us</a>
+			<a href="#sectiunea3">Shop</a>
+      <a href="#sectiunea3">Contact </a>
+		</nav>
+        <form class="search-form" action="#" method="get">
+            <input type="text" name="search" placeholder="Cautare...">
+            <button type="submit">Search</button>
+          </form>
+        
+	</header>
+	<div id="sectiunea1">
+		<h2></h2>
+		<p>
+            <div style="position: relative;">
+             <div id="parallax"></div>
+              
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                  <h1>Tehnologia viitorului</h1>
+                  <p>Revoluția Tehnologiei Umane: Cum tehnologia va transforma viețile noastre într-un mod mai uman și mai sustenabil</p> 
+                    <button type="my-button" onclick="location.href='register.html'">Register</button>
+
+                </div>
+              </div>
+                  
+
+        </p>
+	</div>
+	<div id="sectiunea2">
+		<h2>.</h2>
+		<img src="https://buybooks.ro/upload/articles/75/big-carti-care-au-anticipat-viitorul-tehnologiei.jpg" height="auto" width=60%;>
+                
+                
+                    <button id="button2" class="my-button">Learn More</button>
+
+                   
+	</div>
+	
+    
+    
+    <div id="sectiunea3">
+		<h2>Un viitor tehnologizat.</h2>
+		<p>În viitorul tehnologiei, 
+			puterea nu va mai fi în mâinile celor cu cele mai avansate dispozitive, 
+			ci în mâinile celor care pot utiliza aceste dispozitive pentru a schimba lumea în bine. 
+			Va fi o lume în care tehnologia va fi folosită pentru a construi legături între oameni 
+			și pentru a face viețile noastre mai bune, mai sănătoase și mai productive decât oricând înainte.</p>
+			<img src="https://static.playtech.ro/unsafe/1140x641/smart/filters:contrast(5):format(webp):quality(80)/https://playtech.ro/wp-content/uploads/2022/06/Human-Intelligence-Can-Fix-AI-Sh-800x450.jpg" height="auto" width=50%;>
+		    <img id="img2" src="https://media.dcbusiness.ro/image/201901/w670/tehnologie_11268000.jpg" >
+		
+		
+	</div>
+</div>
+
+<div id="sectiunea4">
+	<h2>Contact Us</h2>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4565.026891451617!2d23.832599615106364!3d44.30795327499825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d702cd0f3173%3A0xb159446a3e899375!2sFacultatea%20de%20Automatic%C4%83%2C%20Calculatoare%20%C8%99i%20Electronic%C4%83!5e0!3m2!1sro!2sro!4v1682378287509!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+	<form>
+		<label for="firstName">First Name:</label>
+		<input type="text" id="firstName" name="firstName"><br>
+	  
+		<label for="lastName">Last Name:</label>
+		<input type="text" id="lastName" name="lastName"><br>
+	  
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone"><br>
+	  
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br>
+	  
+		<label for="message">Message:</label>
+		<textarea id="message" name="message"></textarea><br>
+	  
+		<input type="Send" value="Send">
+	  </form>
+</div>
+<footer class="footer">
+	<div class="header-logo">
+		<img src="img/LearnCube logo wordmark -high res 1.png">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="footer-col">
+				
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">about us</a></li>
+					<li><a href="#">shop</a></li>
+					<li><a href="#">catalogue</a></li>
+					
+			
+				</ul>
+			</div>
+			<div class="footer-col">
+				
+				<ul>
+					<li><a href="#">blogs</a></li>
+					<li><a href="#">resources</a></li>
+					<li><a href="#">team members</a></li>
+					<li><a href="#">case studies</a></li>
+					
+					
+					
+				</ul>
+				<div class="footer-subscribe">
+					<input type="text" placeholder="Enter your email address">
+					<button type="submit">Send<i class="fa fa-arrow-right"></i></button>
+				  </div>
+			
+</footer>
+</body>
+
+</html>
